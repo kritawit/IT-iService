@@ -1,0 +1,330 @@
+* {
+    font-size: 12px;
+    font-family: tahoma;
+}
+body {
+    background-repeat: repeat-x;
+    background-image: url("images/bg_backend.png");
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    background-color: #064d7b;
+}
+.header {
+    width: 100%;
+    margin: auto;
+    border-bottom: #f9f8f7 2px solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.header a {
+    text-shadow: 0 0 0.1em #808080, 0 0 0.3em #f9f8f7;
+    color: #f9f8f7;
+    font-size: 25pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+    color: #f9f8f7;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.menu_left a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+}
+.menu_left a:hover {
+
+}
+.menu_left img {
+    border: 0px;
+}
+.menu_left_hover {
+    box-shadow: 0px 0px 3px 3px #ffffff;
+    background-color: #497a9a;
+}
+.menu_left {
+    padding: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.menu_left .menu_icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+    width: 100px;
+}
+.panel {
+    border: #ced9e7 3px solid;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 3px 3px #ffffff;
+}
+.panel_header {
+    background-color: #ced9e7;
+    padding: 7px;
+    padding-bottom: 10px;
+    color: #04468c;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: #a9bfd3 1px solid;
+    text-shadow: 0 0 0.4em #ffffff, 0 0 0.4em #ffffff;
+}
+.panel_header a {
+    
+}
+.panel_header .topic {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.panel_body {
+    border: #a9bfd3 1px solid;
+    border-top: 0px;
+    background-color: white;
+    padding: 10px;
+}
+.panel_body div a {
+    text-decoration: none;
+}
+select {
+    padding: 7px;
+}
+.button {
+    border: black 1px dashed;
+    background: #064d7b;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: #f9f8f7;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.button_hover {
+    color: #064d7b;
+    background-color: #ced9e7;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: #064d7b 1px solid;
+}
+.button-toolbar {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: #ced9e7;
+}
+.button-toolbar li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-toolbar li div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.button-toolbar li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.button-toolbar li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.button-toolbar li.current {
+    background-color: white;
+}
+.textbox {
+    padding: 7px;
+    border: #a9aaac 1px solid;
+    color: #3e3e3e;
+}
+.row {
+    font-size: 14px; 
+    vertical-align: text-bottom;
+}
+.row span {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.row_report {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.row_report * {
+    font-size: 18px;
+}
+.row_report label {
+    width: 130px;
+    display: inline-block;
+}
+.row_report strong {
+    color: #545454;
+}
+/*
+ * Message
+*/
+.my_message {
+    background-color: #991111;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*
+ * Grid
+*/
+.grid-view .items {
+    border: #5c5c5c 3px solid;
+}
+.grid-view .items thead tr th {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-image: url("images/grid_box.png");
+    background-repeat: repeat-x;
+    background-color: #545454;
+    color: white;
+    text-shadow: 0 0 0.4em #5c5c5c, 0 0 0.4em #5c5c5c;
+    font-size: 14px;
+}
+.grid-view .items thead tr th a {
+    font-size: 14px;
+    color: white;
+}
+.grid-view .items tbody tr td {
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-bottom: #b5b7b7 1px solid;
+    font-size: 14px;
+}
+.grid-view table.items tr:hover {
+    background-color: #ffffcc;
+}
+form div label {
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 4px;
+    vertical-align: top;
+    width: 120px;
+    display: inline-block;
+}
+
+.course_chapter {
+	margin-bottom: 15px;
+	border-bottom: #cccccc 2px solid;
+}
+.course_chapter_name {
+	padding: 5px;
+	border: #a0a0a0 1px solid;
+	font-size: 14px;
+	background-image: url("images/chapter_topic_bg.png");
+	background-repeat: repeat-x;
+	background-color: #f3f4f4;
+}
+.course_chapter_topic div {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 60px;
+	font-size: 14px;
+	color: #666666;
+	border-bottom: #efefef 1px solid;
+	background-image: url("images/arrow_right.png");
+	background-repeat: no-repeat;
+	background-position: 30 5;
+}
+.box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #a9bfd3 1px solid;
+}
+.box * {
+    font-size: 14px;
+}
+
+/*
+* List
+*/
+ul.list {
+    margin: 0px;
+    padding: 0px;
+}
+.list li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/*
+* Error
+*/
+.errorSummary {
+    padding: 5px;
+    border: red 1px solid;
+    background-color: #ffffcc;
+    color: red;
+    font-weight: bold;
+}
+input.error {
+    background-color: #ffffcc;
+    border: red 1px solid;
+}
+textarea.error {
+    background-color: #ffffcc;
+    border: red 1px solid;
+}
+.alert {
+    padding: 15px;
+    font-size: 14px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    color: #386c05;
+    border: #6da915 1px solid;
+}
+.alert-danger {
+    background-color: #f2dede;
+    color: #ba0c08;
+    border: #ba0c08 1px solid;
+}
+.header-success {
+    color: #386c05;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: #386c05 5px solid;
+}
+.header-danger {
+    color: #ba0c08;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: #ba0c08 5px solid;
+}
+.text-danger {
+    color: #ba0c08;
+}
